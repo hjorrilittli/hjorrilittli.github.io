@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSS grind">
+    <meta name="author" content="GJG">
+    <title>CSS grind</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <!-- stílsíður sem við eigum eftir að bæta við-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/topmenu.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--Allar stílsíðurnar eru síðan þjappaðar í eina stílsíðu -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/splash.css">
+    <link rel="stylesheet" href="css/anim.css">
+</head>
+<body class="welcome">
+  <span id="splash-overlay" class="splash"></span>
+  <span id="welcome" class="z-depth-4"></span>
+ 
+  <header class="navbar-fixed"> 
+    <nav class="row deep-purple darken-3">
+      <div class="col s12">
+        <ul class="right">
+          <li class="right">
+            <a href="" target="_blank" class="fa fa-facebook-square fa-2x waves-effect waves-light"><span class="icon-text"></span></a>
+          </li>
+          <li class="right">
+            <a href="" target="_blank" class="fa fa-github-square fa-2x waves-effect waves-light"><span class="icon-text"></span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="valign-wrapper">
+    <span class="container grey-text text-lighten-1 ">
+      <div class="center-align"></div>
+    </span>
+  </main>
+
+  <div class="fixed-action-btn">
+    <a href="#message" class="modal-trigger btn btn-large btn-floating amber waves-effect waves-light">
+    </a>
+  </div>
+
+  <div id="message" class="modal modal-fixed-footer">
+    <div class="modal-content">
+    </div>
+    <div class="modal-footer">
+    </div> 
+  </div> 
+
+  <footer class="page-footer deep-purple darken-3">
+    <div class="footer-copyright deep-purple darken-4">
+      <div class="container">
+      </div>
+    </div>
+  </footer>
+</body>
+<body id="top">
+  <div class="bak">
+      <input type="checkbox" id="toggle" class="menuInput">
+  <label for="toggle" class="menuLabel">&#9776;</label>
+  <nav class="topnav">
+    <ul class="topmenu">
+      <li><a href="#"><span class="icon-home"></span> Home </a></li>
+      <li><a href="#"><span class="icon-newspaper"></span> About</a></li>
+      <li><a href="#"><span class="icon-library"></span> Services</a></li>
+      <li><a href="#"><span class="icon-phone"></span> Contact</a></li>
+    </ul>
+  </nav>
+    </div>
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+  <nav class="topnav">
+  </nav>
+  <header class="container" id="top">
+    <section class="landing">
+      <div class="center">
+        <img src="images/rwd-logo.svg">
+        <h1 class="centre">Stop coding non-structured web sites. Let's do it right.</h1>
+        <a class="button button-primary" href="http://vefhonnun.github.io">Do it yourself</a>
+      </div>
+      <div >
+        <img class="phone" src="../V-1/images/mobile.png">
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="backround">
+      <div class="container col-3">
+        <div class="value">
+          <h1>67%</h1>
+          <h3>Purchase Increase</h3>
+          <p>Percentage of users more likely to purchase<br> on mobile friendly site.</p>
+        </div>
+        <div class="value">
+          <h1>90%</h1>
+          <h3>Multi-device Users</h3>
+          <p>Most of the world accesses the internet<br> on multiple devices.</p>
+        </div>
+        <div class="value">
+          <h1>66%</h1>
+          <h3>Sad Users</h3>
+          <p>Percentage of users that are frustrated<br> with page load times.</p>
+        </div>
+    </div>
+    </section>
+    <section class="container">
+        <h2>Need help getting started?</h2>
+        <p>Grid is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
+        <a class="button button-primary" href="http://gridbyexample.com">View Grid by example</a>
+    </section>
+    <main>
+      <section class="container">
+        <div>
+          <form action="" method="get" class="register"> <!-- class="form-example" ? -->
+            <div class="form-example">
+              <label for="name">enter your name</label>
+              <input type="text" name="name" id="name" required>
+            </p>
+            <div class="form-example">
+              <label for="email">enter your email</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <form action="" method="get" class="form-example">
+              <div class="form-example">
+                <label for="name">enter your phone number</label>
+                <input type="text" name="name" id="name" required>
+                <form action="" method="get" class="form-example">
+                  <p class="form-example">
+                    <h2>Sex</h2>
+                  </p>
+                  <p>
+                    <label for="name">male/kk</label>
+                    <input type="radio" name="gender" id="gender" value="Male">
+                    <label for="name">female/kvk</label>
+                    <input type="radio" name="gender" id="gender" value="female">
+                    <label for="name">aifh/iu</label>
+                    <input type="radio" name="gender" id="gender" value="attackhellicopter">
+                    
+                  </p>
+                    <label for="country_code">Country code:</label>
+                    <input type="text" id="country_code" required name="country_code"
+                     title="Three letter country code">
+                    <label for="cars">Choose a car:</label>
+                    <select id="cars" name="cars">
+                      <option value="lamborgini tractor">lamborgini tractor</option>
+                      <option value="cybertruck">cybertruck</option>
+                      <option value="hot streak">hot streak</option>
+                      <option value="ford f2.50">ford f2.50</option>
+                      <option value="Pink 1962 Austin Healy roadster with radial tires, size 165/80R15 and leather seating">Pink 1962 Austin Healy roadster with radial tires, size 165/80R15 and leather seating</option>
+                    </select>
+                    <p>
+                      <label for="coment">coment</label>
+                      <textarea name="coment">COMENT</textarea>  
+                    </p>   
+            <div class="form-example">
+              <input type="submit" value="Subscribe!">
+              
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <section class="container">
+      <table>
+        <div class="timar">
+          <caption>Tíma Pantanir</caption>
+          <thead>
+              <tr>
+                  <th scope="col">who</th>
+                  <th scope="col">where</th>
+                  <th scope="col">when</th>
+                  <th scope="col">check in</th>
+              </tr>
+              <!-- The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows.
+              Note: The scope attribute has no visual effect in ordinary web browsers, but can be used by screen readers. -->
+          </thead>
+            <tbody>
+              <tr>
+                  <td scope="row" data-label="AÖ">Siggi</td>
+                  <td data-label="A">Reykjavík</td>
+                  <td data-label="B">10-14</td>
+                  <td data-label="C"><button class="button button-primary">check in</button</td>
+              </tr>
+              <tr>
+                  <td scope="row" data-label="AÖ">Adam</td>
+                  <td data-label="A">Rabbabaralundur</td>
+                  <td data-label="B">11-22</td>
+                  <td data-label="C"><button class="button button-primary">check in</button></td>
+              </tr>
+              <tr>
+                  <td scope="row" data-label="AÖ">Kristín</td>
+                  <td data-label="A">kattholt</td>
+                  <td data-label="B">6-12</td>
+                  <td data-label="C"><button class="button button-primary">check in</button</td>
+              </tr>
+              <tr>
+                <td scope="row" data-label="AÖ">Tristan</td>
+                <td data-label="A">Grindavík</td>
+                <td data-label="B">12-16</td>
+                <td data-label="C"><button class="button button-primary">check in</button</td>
+            </tr>
+            <tr>
+              <td scope="row" data-label="AÖ">Melkorka</td>
+              <td data-label="A">Hafnarfjörður</td>
+              <td data-label="B">10-22</td>
+              <td data-label="C"><button class="button button-primary">check in</button</td>
+            </tr>
+            <tr>
+              <td scope="row" data-label="AÖ">Amanda</td>
+              <td data-label="A">Akureiri</td>
+              <td data-label="B">lokað</td>
+              <td data-label="C"><button class="button button-primary">check in</button</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>	
+    </section>
+  
+    <section class="container" id="cssgrid">
+      <p>Hér á þessari síðu er CSS Grid með 6 dálkum, þetta er einfalt kerfi sem auðvelt er að breyta og bæta</p>
+      <div class="col-1 rammi">
+        <div>col-1</div>
+      </div>
+      <div class="rammi col-2">
+        <div>col-2</div>
+        <div>col-2</div>
+      </div>
+      <div class="rammi col-3">
+        <div>col-3</div>
+        <div>col-3</div>
+        <div>col-3</div>
+      </div>
+      <div class="rammi col-4">
+        <div>col-4</div>
+        <div>col-4</div>
+        <div>col-4</div>
+        <div>col-4</div>
+      </div>
+      <div class="rammi col-5">
+        <div>col-5</div>
+        <div>col-5</div>
+        <div>col-5</div>
+        <div>col-5</div>
+        <div>col-5</div>
+      </div>
+      <div class="rammi col-6">
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+      </div>
+      <div class="rammi col-6f">
+        <div>col-6f fixed</div>
+        <div>col-6f fixed</div>
+        <div>col-6f fixed</div>
+        <div>col-6f fixed</div>
+        <div>col-6f fixed</div>
+        <div>col-6f fixed</div>
+      </div>
+    </section>
+    <section class="bgimage" id="myndir">
+      <div class="container">
+        <h2>Responsive Images</h2>
+        <div class="col-2">
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <p>Basic RWD design is the best resolution.</p>
+        <div class="col-3">
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <p>6. dálkar</p>
+        <div class="col-6">
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+          <figure>
+            <img src="images/placeholder2.png">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="letur">
+      <div class="rada">
+        
+        <article>
+          <h1>Fyrirsögn</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+          <h3>Millifyrirsögn</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+        </article>
+        <img src="images/placeholder2.png">
+        <article class="">
+          <h2>Undirfyrirsögn</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+          <h2>Millifyrirsögn</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>  
+        </article>
+      </div>
+      <div class="">
+        <article>
+          <h4>Áherslutexti</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+        </article>
+        <article>
+          <h5>Undirmálstexti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas voluptatibus blanditiis.</h5>
+        <h6>Neðamálstexti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet minima porro numquam eligendi totam nulla voluptate odit facere aut quo iste veniam, impedit non quisquam cupiditate, earum architecto quas!</h6>
+        </article>
+        <article>
+          <h4>Áherslutexti</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+        </article>
+        <article>
+          <h5>Undirmálstexti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas voluptatibus blanditiis.</h5>
+        <h6>Neðamálstexti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet minima porro numquam eligendi totam nulla voluptate odit facere aut quo iste veniam, impedit non quisquam cupiditate, earum architecto quas!</h6>
+        </article>
+      </div>
+    </section>
+  </main>
+  <div class="backround2">
+  <footer class="container centre">
+    <hr>
+    <p><a href=#top class="button">Efst á síðu</a></p>
+    <div class="endi">
+      <h5><span class="icon-hipster2"></span> EKKI TALA VIÐ!!!! </h5>
+      <h5><span class="icon-instagram"></span> instagram: @nei </h5>
+      <h5>Nafn: Hjörtur Jónas Klemensson</h3>
+      <h5><span class="icon-warning"></span> virkar ekki en þá </h5>
+      <h5><span class="icon-facebook2"></span> Facebook: nei </h5>
+      <h5>tölvupóstfang: hjorturkl21@tskoli.is</h3>
+      <h5><span class="icon-wrench"></span> í vinnslu??</h5>
+      <h5><span class="icon-play"></span> youtube: nei</h5>
+      <h5> skóli: Tæknó</h3>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>

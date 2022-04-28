@@ -1,7 +1,7 @@
 
 .backround{
-    background-image: url(../images/values-bg.jpg);
-    color: whitesmoke;
+    background-color: #880808;
+    color: #A9A9A9	;
 }
 .phone{
     
@@ -9,14 +9,19 @@
 
     
 }
+.logo{
+    width: 8000px;
+    justify-items: center ;
+}
 
 .value{
     text-align: center;
     display: grid;
     justify-content: center;
+    justify-items: center;
 }
 .value h1{
-    border: 1px solid whitesmoke;
+    border: 1px solid #A9A9A9	;
     border-radius: 50%;
     width:2.5em ;
     padding: .4em 0em;

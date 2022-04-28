@@ -10,7 +10,7 @@
     
 }
 .logo{
-    width: 8000px;
+    width: 800px;
     justify-items: center ;
 }
 
@@ -101,14 +101,6 @@ caption{
         transform: rotate(6deg);
         margin-top: -1em;
         float: right;
-    }
-    .landing{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .rada{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (max-width: 600px) {

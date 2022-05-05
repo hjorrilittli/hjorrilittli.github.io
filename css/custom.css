@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(41, 0, 0)
+    
+
+}
 
 .backround{
     background-color: #880808;
@@ -5,10 +10,13 @@
 }
 .phone{
     
-    width: 90%;
-
-    
+    width: 90%;  
 }
+
+.leikur{
+    height: 200%;
+}
+
 .logo{
     width: 800px;
     justify-items: center ;

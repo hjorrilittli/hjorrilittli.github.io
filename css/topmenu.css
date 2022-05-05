@@ -5,19 +5,19 @@
 }
 input.menuInput {
     display: none;
-    background-color: rgb(39, 115, 117);
+    background-color: rgb(172, 0, 0);
   }
 
   .menuLabel{
-    border: 1px solid #cecfd5;
+    border: 1px solid #000000;
     border-radius: 6px;
-    background-color: rgb(39, 115, 117);
+    background-color: rgb(110, 0, 0);
   }
   .bak{
       background-image: url(../images/values-bg.jpg);
   }
   .menuLabel {
-    color: #0087cc;
+    color: #cc0000;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
@@ -25,11 +25,11 @@ input.menuInput {
     transition: all .15s ease;
   }
   .menuLabel:hover {
-    color: #ff7b29;
+    color: #000000;
   }
   .menuInput:checked + label {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
-    color: #9799a7;
+    color: #640000;
   }
   .topmenu {
     list-style: none;
@@ -52,26 +52,26 @@ input.menuInput {
     width: 100px;
   }
   .topmenu li {
-    border-bottom: 1px solid #cecfd5;
+    border-bottom: 1px solid #000000;
   }
   .topmenu li:last-child {
     border-bottom: 0;
   }
   a {
-    color: #0087cc;
+    color: #5f0000;
     display: block;
     padding: 6px 12px;
     text-decoration: none;
   }
   .topmenu a:hover {
-    color: #ff7b29;
+    color: #fa2b2b;
   }
   @media screen and (min-width:60em){
       .topnav{
           top: 0;
           left: 0;
           width: 100%;
-          background-color: rgb(39, 115, 117);
+          background-color: rgb(121, 0, 0);
       }
       .menuLabel{
           display: none;

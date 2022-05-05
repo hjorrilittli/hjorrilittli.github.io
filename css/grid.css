@@ -43,7 +43,7 @@
   .col-3,
   .col-5,
   .col-6 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap:1em;
   }
 }

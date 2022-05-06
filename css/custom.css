@@ -21,6 +21,15 @@ body{
     width: 800px;
     justify-items: center ;
 }
+.thick{
+    border: solid rgb(104, 104, 104);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.m{
+    justify-content: center;
+}
 
 .value{
     text-align: center;

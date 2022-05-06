@@ -46,6 +46,9 @@ body{
     text-align: center;
     align-items: center;
 }
+.endar{
+    border: solid rgb(109, 109, 109);
+}
 .dot{
     display: flex;
     justify-content: space-between;

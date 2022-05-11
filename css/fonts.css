@@ -40,3 +40,6 @@
 .icon-warning:before {
   content: "\ea07";
 }
+.lit{
+  color: rgb(255, 118, 118);
+}

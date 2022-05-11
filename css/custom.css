@@ -21,6 +21,295 @@ body{
     width: 800px;
     justify-items: center ;
 }
+
+.value{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.value h1{
+    border: 10px solid #300000	;
+    border-radius: 30%;
+    width:2.5em ;
+    padding: .4em 0em;
+}
+.center{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.landing{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+}
+.dot{
+    display: flex;
+    justify-content: space-between;
+}
+.backround2{
+    background-color: #880808;
+}
+.klassi{
+    margin-left: auto;
+}
+.register label {
+    display: inline;
+    
+}
+.register div { 
+    margin: .5em 0;
+}
+.register input[type="name"],
+.register input[type="email"],
+.register input[type="search"],
+.register input[type="text"],
+.register input[type="tel"],
+.register input[type="url"],
+.register input[type="password"],   /* ath! , skiptir upp eigindum */
+.register textarea {
+    box-shadow: 3px 3px 5px #aaa inset;
+    width: 100%; /* ath! */
+}
+.timar{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.endi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table thead{
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1xp;
+    margin: -1xp;
+
+}
+table{
+    width: 48em;
+    margin: 1em auto;
+}
+caption{
+    text-transform: none;
+}
+.mid{
+    justify-content: center;
+}
+@media screen and (min-width: 20em){
+    
+}
+@media screen and (min-width: 37.5em){
+    .phone{
+        width: 80%;
+        transform: rotate(6deg);
+        margin-top: -1em;
+        float: right;
+    }
+}
+@media screen and (max-width: 600px) {
+    table{
+        width: 100%;
+    }
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      text-align: right;
+    }
+    
+    table td::before {
+      content: attr(data-label);
+      float: left;
+    }
+  }
+body{
+    background-color: rgb(41, 0, 0)
+    
+
+}
+
+.backround{
+    background-color: #880808;
+    color: #A9A9A9	;
+}
+.phone{
+    
+    width: 90%;  
+}
+
+.leikur{
+    height: 200%;
+}
+
+.logo{
+    width: 800px;
+    justify-items: center ;
+}
+
+.value{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.value h1{
+    border: 10px solid #300000	;
+    border-radius: 30%;
+    width:2.5em ;
+    padding: .4em 0em;
+}
+.center{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.landing{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+}
+.dot{
+    display: flex;
+    justify-content: space-between;
+}
+.backround2{
+    background-color: #880808;
+}
+.klassi{
+    margin-left: auto;
+}
+.register label {
+    display: inline;
+    
+}
+.register div { 
+    margin: .5em 0;
+}
+.register input[type="name"],
+.register input[type="email"],
+.register input[type="search"],
+.register input[type="text"],
+.register input[type="tel"],
+.register input[type="url"],
+.register input[type="password"],   /* ath! , skiptir upp eigindum */
+.register textarea {
+    box-shadow: 3px 3px 5px #aaa inset;
+    width: 100%; /* ath! */
+}
+.timar{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.endi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table thead{
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1xp;
+    margin: -1xp;
+
+}
+table{
+    width: 48em;
+    margin: 1em auto;
+}
+caption{
+    text-transform: none;
+}
+.mid{
+    justify-content: center;
+}
+@media screen and (min-width: 20em){
+    
+}
+@media screen and (min-width: 37.5em){
+    .phone{
+        width: 80%;
+        transform: rotate(6deg);
+        margin-top: -1em;
+        float: right;
+    }
+}
+@media screen and (max-width: 600px) {
+    table{
+        width: 100%;
+    }
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      text-align: right;
+    }
+    
+    table td::before {
+      content: attr(data-label);
+      float: left;
+    }
+  }
+
+body{
+    background-color: rgb(41, 0, 0)
+    
+
+}
+
+.backround{
+    background-color: #880808;
+    color: #A9A9A9	;
+}
+.phone{
+    
+    width: 90%;  
+}
+
+.leikur{
+    height: 200%;
+}
+
+.logo{
+    width: 800px;
+    justify-items: center ;
+}
 .thick{
     border: solid rgb(104, 104, 104);
     border-radius: 20px;
@@ -154,4 +443,4 @@ caption{
       float: left;
     }
   }
-
+  

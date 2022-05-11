@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +10,8 @@
 <body>
 <!-- Siggi Jumpscare -->
 <input type="button" onclick="jumpscare();"value="Siggi"/>
-<img id="jumpscare" src="images/Siggi.svg">
-<audio id="scream" src="audio/siggi.wav"></audio>
+<img id="jumpscare" src="images/Siggi jumpscare.svg">
+<audio id="scream" src="audio/Dóp stúf gaur amogus.mp4"></audio>
 <!-- Glói Jumpscare -->
 <input type="button" onclick="jumpscare2();"value="Glói"/>
 <img id="jumpscare2" src="images/Glói jumpscare.svg">
@@ -34,13 +33,26 @@
 <img id="jumpscare6" src="images/jói jumpscare.svg">
 <audio id="scream6" src="audio/Gaur ég elska amogus4.wav"></audio>
 
+<!-- Menu music-->
+<input type="button" onclick="tonlist();"value="tonlist"/>
+<audio id="tonlist" src="audio/Glói.wav"></audio>
+
+<script>
+    function tonlistmar(){
+    var audio = document.getElementById("tonlist");
+    audio.play()
+    
+}
+</script>
+
 <!-- jumpscare-->
 <script>
     function jumpscare(){
     var jumpscare = document.getElementById("jumpscare");
-    jumpscare.style.visibility="visible";
+    jumpscare.style.visibility="hidden";
     var audio = document.getElementById("scream");
     audio.play()
+    
 }
 </script>
 <script>
@@ -87,94 +99,4 @@
 </script>
 
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Jumpscare.css">
-    <title>Asaay</title>
-</head>
-<body>
-<!-- Siggi Jumpscare -->
-<input type="button" onclick="jumpscare();"value="Siggi"/>
-<img id="jumpscare" src="images/Siggi.svg">
-<audio id="scream" src="audio/siggi.wav"></audio>
-<!-- Glói Jumpscare -->
-<input type="button" onclick="jumpscare2();"value="Glói"/>
-<img id="jumpscare2" src="images/Glói jumpscare.svg">
-<audio id="scream2" src="audio/Glói.wav"></audio>
-<!-- Maggi Jumpscare -->
-<input type="button" onclick="jumpscare3();"value="Maggi"/>
-<img id="jumpscare3" src="images/Maggi jumscare.svg">
-<audio id="scream3" src="audio/Jumpscare.wav"></audio>
-<!-- Svabbipabbi Jumpscare -->
-<input type="button" onclick="jumpscare4();"value="Svabbipabbi"/>
-<img id="jumpscare4" src="images/Svabbi jumpscare.svg">
-<audio id="scream4" src="audio/Gaur ég elska amogus2.wav"></audio>
-<!-- Orri Jumpscare -->
-<input type="button" onclick="jumpscare5();"value="Orri"/>
-<img id="jumpscare5" src="images/orri jumpscare.svg">
-<audio id="scream5" src="audio/Gaur ég elska amogus3.wav"></audio>
-<!-- Jói Jumpscare -->
-<input type="button" onclick="jumpscare6();"value="Jói"/>
-<img id="jumpscare6" src="images/jói jumpscare.svg">
-<audio id="scream6" src="audio/Gaur ég elska amogus4.wav"></audio>
-
-<!-- jumpscare-->
-<script>
-    function jumpscare(){
-    var jumpscare = document.getElementById("jumpscare");
-    jumpscare.style.visibility="visible";
-    var audio = document.getElementById("scream");
-    audio.play()
-}
-</script>
-<script>
-    function jumpscare2(){
-    var jumpscare2 = document.getElementById("jumpscare2");
-    jumpscare2.style.visibility="visible";
-    var audio = document.getElementById("scream2");
-    audio.play()  
-}
-</script>
-<script>
-    function jumpscare3(){
-    var jumpscare3 = document.getElementById("jumpscare3");
-    jumpscare3.style.visibility="visible";
-    var audio = document.getElementById("scream3");
-    audio.play()  
-}
-</script>
-<script>
-    function jumpscare4(){
-    var jumpscare4 = document.getElementById("jumpscare4");
-    jumpscare4.style.visibility="visible";
-    var audio = document.getElementById("scream4");
-    audio.play()  
-}
-</script>
-
-<script>
-    function jumpscare5(){
-    var jumpscare5 = document.getElementById("jumpscare5");
-    jumpscare5.style.visibility="visible";
-    var audio = document.getElementById("scream5");
-    audio.play()  
-}
-</script>
-
-<script>
-    function jumpscare6(){
-    var jumpscare6 = document.getElementById("jumpscare6");
-    jumpscare6.style.visibility="visible";
-    var audio = document.getElementById("scream6");
-    audio.play()  
-}
-</script>
-
-</body>
->>>>>>> 2e2f2fffb6d72a2b936f05fc37c375768ad89e1a
 </html>

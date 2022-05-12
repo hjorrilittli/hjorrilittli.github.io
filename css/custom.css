@@ -159,9 +159,13 @@ body{
 .bo h4{
     border: 10px solid #9c4c4c	;
     border-radius: 15%;
-    padding: .4em 0em;
     width: auto;
     padding: 25px;
+}
+.jollipirr{
+    border: 10px solid #801818	;
+    padding: 25px;
+    background-color: #3a0606;
 }
 .leikur{
     height: 200%;

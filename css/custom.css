@@ -157,13 +157,17 @@ body{
     width: 90%;  
 }
 .bo h4{
-    border: 10px solid #7a7a7a	;
-    border-radius: 25%;
+    border: 10px solid #9c4c4c	;
+    border-radius: 15%;
     padding: .4em 0em;
     width: auto;
+    padding: 25px;
 }
 .leikur{
     height: 200%;
+}
+.staekka{
+    width: 100px;
 }
 
 .logo{

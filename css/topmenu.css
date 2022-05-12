@@ -24,7 +24,7 @@ input.menuInput {
   color: #ff7b29;
 }
 .menuInput:checked + .menuLabel{
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px 2px rgba(255, 0, 0, 0.459);
   color: #9799a7;
 }
 .topmenu {
@@ -33,7 +33,7 @@ input.menuInput {
   top:3em;
   left:-25em;
   width: 20em;
-  background-color: rgb(32, 133, 32);
+  background-color: rgba(255, 0, 0, 0.507);
   color:#fff;
   transition: all .15s ease;
 }
@@ -48,13 +48,13 @@ input.menuInput {
   border-bottom: 0;
 }
 .topmenu a {
-  color: #a8e2ff;
+  color: #ff8888;
   display: block;
   padding: 6px 12px;
   text-decoration: none;
 }
 .topmenu a:hover {
-  color: #ff7b29;
+  color: #ff0000;
 }
 @media screen and (min-width: 60em){
   .topnav{

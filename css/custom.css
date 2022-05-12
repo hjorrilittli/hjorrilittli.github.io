@@ -4,6 +4,10 @@ body{
 
 }
 
+.sub{
+    justify-content: center;
+}
+
 .backround{
     background-color: #880808;
     color: #A9A9A9	;

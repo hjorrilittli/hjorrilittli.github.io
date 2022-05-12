@@ -156,7 +156,12 @@ body{
     
     width: 90%;  
 }
-
+.bo h4{
+    border: 10px solid #7a7a7a	;
+    border-radius: 25%;
+    padding: .4em 0em;
+    width: auto;
+}
 .leikur{
     height: 200%;
 }

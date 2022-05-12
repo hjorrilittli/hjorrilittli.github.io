@@ -13,9 +13,6 @@ input.menuInput {
     border-radius: 6px;
     background-color: rgb(110, 0, 0);
   }
-  .bak{
-      background-image: url(../images/values-bg.jpg);
-  }
   .menuLabel {
     color: #cc0000;
     cursor: pointer;

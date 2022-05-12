@@ -1,0 +1,86 @@
+.topnav{
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+
+input.menuInput {
+  display: none;
+}
+.menuLabel {
+  border: 1px solid #cecfd5;
+  border-radius: 6px;
+}
+.menuLabel {
+  color: #0087cc;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  padding: 5px 9px;
+  transition: all .15s ease;
+  background-color: rgb(144, 224, 144);
+}
+.menuLabel:hover {
+  color: #ff7b29;
+}
+.menuInput:checked + .menuLabel{
+  box-shadow: inset 0 1px 2px rgba(255, 0, 0, 0.459);
+  color: #9799a7;
+}
+.topmenu {
+  list-style: none;
+  position: fixed;
+  top:3em;
+  left:-25em;
+  width: 20em;
+  background-color: rgba(255, 0, 0, 0.507);
+  color:#fff;
+  transition: all .15s ease;
+}
+.menuInput:checked ~ .topmenu {
+  left:1em;
+  transform: all 0.5s ease;
+}
+.topmenu li {
+  border-bottom: 1px solid #cecfd5;
+}
+.topmenu li:last-child {
+  border-bottom: 0;
+}
+.topmenu a {
+  color: #ff8888;
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.topmenu a:hover {
+  color: #ff0000;
+}
+@media screen and (min-width: 60em){
+  .topnav{
+      top:0;
+      left:0;
+      width: 100%;
+      background-color: rgb(49, 116, 49);
+      
+  }
+  .menuLabel{
+      display: none;
+  }
+  .topmenu {
+      display: flex;
+      flex-flow: row;
+      list-style: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin:0;
+      width: 100%;
+      transition: none;
+  }
+  .topmenu li {
+      border-bottom: 0;
+      margin: 0;
+      padding-left: 3em;
+  }
+}
